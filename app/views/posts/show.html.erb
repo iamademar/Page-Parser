@@ -1,0 +1,6 @@
+<h1><%= link_to "#{@post.name}", @post.url  %></h1>
+<h3><%= "#{@post.author}" %></h3>
+<br>
+<%= @post.content.html_safe %>
+
+

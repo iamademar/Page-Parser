@@ -33,4 +33,8 @@ gem 'feedzirra'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem "factory_girl_rails", ">= 1.1.0"
+  gem 'rspec-rails'
+  gem 'database_cleaner'
+  gem 'guard-rspec'
 end
