@@ -1,0 +1,6 @@
+<h3>Recent Tutorials</h3>
+<ul>
+  <% @feeds.each do |entry| %>
+    <li><%= link_to h(entry.name), entry.url %></li>
+  <% end %>
+</ul>
